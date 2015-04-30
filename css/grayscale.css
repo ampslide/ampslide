@@ -282,7 +282,7 @@ a:focus {
 .getaccess-section {
     width: 100%;
     padding: 25px 0;
-    background: url(../img/) no-repeat center center scroll;
+    background: url(../img/blur.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;

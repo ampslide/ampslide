@@ -176,7 +176,7 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
+.intro .intro-body .intro-heading {
     font-family: 'Lato','appleLogo',sans-serif, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-size: 40px;
@@ -205,14 +205,14 @@ a:focus {
     vertical-align: middle;
 }
 
-.about .about-body .brand-heading {
+.about .about-body .about-heading {
     font-family: 'Lato','appleLogo',sans-serif, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.about .about-body .intro-text {
-    font-size: 18px;
+.about .about-body .about-text {
+    font-size: 16px;
 }
 
 .getaccess {
@@ -221,7 +221,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #000;
+    color: #333333;
     background: url(../img/blur.png) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -234,14 +234,14 @@ a:focus {
     vertical-align: middle;
 }
 
-.getaccess .getaccess-body .brand-heading {
+.getaccess .getaccess-body .getaccess-heading {
     font-family: 'Lato','appleLogo',sans-serif, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 30px;
 }
 
-.getaccess .getaccess-body .intro-text {
-    font-size: 18px;
+.getaccess .getaccess-body .getaccess-text {
+    font-size: 16px;
 }
 
 .follow-section {
@@ -262,12 +262,38 @@ a:focus {
         padding: 0;
     }
 
-    .intro .intro-body .brand-heading {
+    .intro .intro-body .intro-heading {
         font-size: 80px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 36px;
+    }
+    
+    .about {
+        height: 100%;
+        padding: 0;
+    }
+
+    .about .about-body .about-heading {
+        font-size: 60px;
+    }
+
+    .about .about-body .about-text {
+        font-size: 28px;
+    }
+    
+    .getaccess {
+        height: 100%;
+        padding: 0;
+    }
+
+    .getaccess .getaccess-body .getaccess-heading {
+        font-size: 60px;
+    }
+
+    .getaccess .getaccess-body .getaccess-text {
+        font-size: 28px;
     }
 }
 

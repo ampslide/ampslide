@@ -208,10 +208,16 @@ a:focus {
 .about .about-body .about-heading {
     font-family: 'Lato','appleLogo',sans-serif, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 28px;
 }
 
-.about .about-body .about-text {
+.about .about-body .about-why {
+    text-align: center;
+    font-size: 16px;
+}
+
+.about .about-body .about-how {
+    text-align: left;
     font-size: 16px;
 }
 
@@ -256,6 +262,15 @@ a:focus {
     -o-background-size: cover;
 }
 
+.footer_logo {      
+    display: inline-block;
+    background-image: url(../img/ampslide_logo_name_black.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 60px;
+}
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
@@ -276,10 +291,14 @@ a:focus {
     }
 
     .about .about-body .about-heading {
-        font-size: 60px;
+        font-size: 58px;
     }
 
-    .about .about-body .about-text {
+    .about .about-body .about-how {
+        font-size: 28px;
+    }
+ 
+    .about .about-body .about-why {
         font-size: 28px;
     }
     
@@ -294,6 +313,11 @@ a:focus {
 
     .getaccess .getaccess-body .getaccess-text {
         font-size: 28px;
+    }
+    
+    .footer_logo {
+        width: 360px;
+        height: 80px;
     }
 }
 
@@ -384,10 +408,6 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 100px;
-    }
-
-    .getaccess-section {
-        padding: 100px 0;
     }
 
     #map {
@@ -521,18 +541,4 @@ body {
 .footer_logo_wrapper {
     text-align:center;
     color: #323232;
-}
-
-#footer_logo {      
-    display: inline-block;
-    background-image: url(../img/ampslide_logo_name_black.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 360px;
-    height: 80px;
-}
-
-#steps {
-    padding: 15px;
-    font-size: 25px;
 }

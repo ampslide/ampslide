@@ -86,7 +86,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     background-image: url(../img/logo_ampslide.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -98,7 +98,7 @@ a:focus {
 }
 
 .navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
+    padding: 8px 12px;
     font-size: 14px;
     color: #fff;
 }

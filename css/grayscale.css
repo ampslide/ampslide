@@ -120,7 +120,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: #cbac88;
     background-color: transparent;
 }
 
